@@ -16,7 +16,7 @@ Mesh:
     baseVertex: 0
     firstVertex: 0
     vertexCount: 18
-    localAABB: &id001
+    localAABB:
       m_Center: {x: -2.5495193751443885, y: 34.043, z: -27.785885937448434}
       m_Extent: {x: 4.150480624855612, y: 0.0, z: 20.785885937448434}
   m_Shapes:
@@ -150,7 +150,9 @@ Mesh:
       m_Data:
       m_BitSize: 0
     m_UVInfo: 0
-  m_LocalAABB: *id001
+  m_LocalAABB:
+      m_Center: {x: -2.5495193751443885, y: 34.043, z: -27.785885937448434}
+      m_Extent: {x: 4.150480624855612, y: 0.0, z: 20.785885937448434}
   m_CookingOptions: 30
   m_PreBakeConvexCollisionMesh: 0
   m_PreBakeTriangleCollisionMesh: 0
