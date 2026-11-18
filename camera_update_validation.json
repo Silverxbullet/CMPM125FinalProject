@@ -1,0 +1,23 @@
+{
+  "uploaded_scene_records_preserved_byte_for_byte": 4072,
+  "modified_records": "camera GameObject, camera Transform, Camera component only",
+  "new_record": "free-camera MonoBehaviour",
+  "scene_references": "resolved",
+  "scene_meta": "preserved",
+  "packages_and_project_settings": "Package versions preserved; duplicate build-scene entries and unused dangling URP settings reference removed",
+  "viewpoints": 5,
+  "camera_projection": "perspective",
+  "camera_clipping": "0.03 to 600 metres",
+  "scenery_mesh_material_prefab_files": "unchanged",
+  "original_playable_cliff_scene": "unchanged",
+  "csharp_syntax": "passed for both added scripts",
+  "unity_compilation_and_playmode": "not available; Unity is not installed",
+  "reported_editor_disappearance": "clipping adjustment provided; symptom not reproduced here",
+  "full_project_packaging": {
+    "asset_files_match_previous_corrected_delivery": 958,
+    "unique_build_scenes": 3,
+    "first_scene": "Assets/Scenes/CampgroundLayout.unity",
+    "scene_guids": "all resolved",
+    "script_syntax": "scripts unchanged from previously syntax-checked corrected delivery"
+  }
+}
