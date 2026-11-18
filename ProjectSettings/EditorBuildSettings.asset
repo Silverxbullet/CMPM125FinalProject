@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/CampgroundLayout.unity
+    guid: 2e84f0d5772652a4a22820d35b2013e6
+  - enabled: 1
+    path: Assets/Scenes/CliffDivePrototype.unity
+    guid: 90c2aeb197f1bee408c97a63bdc336ce
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
