@@ -1,0 +1,93 @@
+{
+  "context": {
+    "projectPath": "C:/Users/joseb/OneDrive/Documents/GitHub/CMPM125FinalProject/CliffDiverSavedProject/CliffDiver-ReadyToShare/Packages",
+    "unityVersion": "6000.6.4f1"
+  },
+  "inputs": [
+    "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Packages\\manifest.json",
+    "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Packages\\packages-lock.json",
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.4f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+  ],
+  "outputs": {
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+      "displayName": "Audio",
+      "resolvedPath": "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Library\\PackageCache\\com.unity.modules.audio",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+      "displayName": "IMGUI",
+      "resolvedPath": "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Library\\PackageCache\\com.unity.modules.imgui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics@1.0.0": {
+      "name": "com.unity.modules.physics",
+      "displayName": "Physics",
+      "resolvedPath": "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Library\\PackageCache\\com.unity.modules.physics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.particlesystem@1.0.0": {
+      "name": "com.unity.modules.particlesystem",
+      "displayName": "Particle System",
+      "resolvedPath": "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Library\\PackageCache\\com.unity.modules.particlesystem",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+      "displayName": "UI",
+      "resolvedPath": "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Library\\PackageCache\\com.unity.modules.ui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.uielements@1.0.0": {
+      "name": "com.unity.modules.uielements",
+      "displayName": "UIElements",
+      "resolvedPath": "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Library\\PackageCache\\com.unity.modules.uielements",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.animation@1.0.0": {
+      "name": "com.unity.modules.animation",
+      "displayName": "Animation",
+      "resolvedPath": "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Library\\PackageCache\\com.unity.modules.animation",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imageconversion@1.0.0": {
+      "name": "com.unity.modules.imageconversion",
+      "displayName": "Image Conversion",
+      "resolvedPath": "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Library\\PackageCache\\com.unity.modules.imageconversion",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+      "displayName": "JSONSerialize",
+      "resolvedPath": "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+      "displayName": "Hierarchy Core",
+      "resolvedPath": "C:\\Users\\joseb\\OneDrive\\Documents\\GitHub\\CMPM125FinalProject\\CliffDiverSavedProject\\CliffDiver-ReadyToShare\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    }
+  }
+}
