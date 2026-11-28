@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 0.9
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 2bd8959f5fbd3644aa33af1a155fc147, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2060,7 +2060,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: efa5784588dea034a8a7c66e74038580, type: 2}
+  - {fileID: 2100000, guid: 29bada9e217f57f68f785c3f8ed3dcea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2696,7 +2696,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: efa5784588dea034a8a7c66e74038580, type: 2}
+  - {fileID: 2100000, guid: 29bada9e217f57f68f785c3f8ed3dcea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5323,7 +5323,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: efa5784588dea034a8a7c66e74038580, type: 2}
+  - {fileID: 2100000, guid: 29bada9e217f57f68f785c3f8ed3dcea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6043,7 +6043,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: efa5784588dea034a8a7c66e74038580, type: 2}
+  - {fileID: 2100000, guid: 29bada9e217f57f68f785c3f8ed3dcea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13792,7 +13792,7 @@ Transform:
   m_GameObject: {fileID: 10000000042}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1.25, y: 0, z: 0.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34360,7 +34360,7 @@ Transform:
   m_GameObject: {fileID: 10000000960}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17, y: 34, z: -46}
+  m_LocalPosition: {x: 16.315, y: 34, z: -44.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -95549,7 +95549,7 @@ Camera:
   m_GameObject: {fileID: 10000003728}
   m_Enabled: 0
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.64, g: 0.76, b: 0.73, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -95850,7 +95850,7 @@ Camera:
   m_GameObject: {fileID: 12000000005}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.64, g: 0.76, b: 0.73, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
