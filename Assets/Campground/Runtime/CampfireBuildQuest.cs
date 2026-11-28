@@ -30,6 +30,11 @@ namespace Campground
         private bool built;
         private int rocks;
         private int sticks;
+        public bool Completed => built;
+        public int Rocks => rocks;
+        public int Sticks => sticks;
+        public string CurrentHint => Hint();
+        public bool Near(Vector3 point) => campfire != null && Vector3.Distance(point, campfire.position) < 20f;
         private GUIStyle panel;
         private GUIStyle label;
 
@@ -60,6 +65,8 @@ namespace Campground
             bool held = Keyboard.current != null && Keyboard.current.fKey.isPressed
                         || Mouse.current != null && Mouse.current.leftButton.isPressed;
 
+            if (!Badgewood.CampGameFlow.CanInteract) { interactHeld = held; return; }
+
             if (held && !interactHeld) Use();
             interactHeld = held;
         }
@@ -83,6 +90,7 @@ namespace Campground
 
         private Target FindTarget()
         {
+            if (view == null) view = Camera.main;
             if (view == null) return default;
 
             Vector3 origin = view.transform.position;
@@ -135,6 +143,7 @@ namespace Campground
 
         private void OnGUI()
         {
+            if (Badgewood.CampGameFlow.Instance != null) return;
             if (panel == null)
             {
                 panel = new GUIStyle(GUI.skin.box);
