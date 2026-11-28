@@ -348,7 +348,7 @@ namespace Badgewood
             BackButton(help.transform);
 
             GameObject credits = Panel(Page.Credits, "MADE AROUND THE CAMPFIRE", "A CMPM 125 group project");
-            Label("Credits", "To be added\n\nTHIRD-PARTY ART\nLow-Poly Simple Nature Pack — JustCreate\nLow Poly: Woods Lifestyle — Rad-Coders\nLiving Birds — included bird asset pack\n\nBuilt with Unity. Asset attribution is also included in the project README.", credits.transform, 92, 248, 1090, 355, 21, cream);
+            Label("Credits", "To be added\n\nTHIRD-PARTY ART\nLow-Poly Simple Nature Pack — JustCreate\nLow Poly: Woods Lifestyle — Rad-Coders\nLiving Birds — included bird asset pack\nSkybox Extended Shader — BOXOPHOBIC\n\nBuilt with Unity. Asset attribution is also included in the project README.", credits.transform, 92, 248, 1090, 355, 21, cream);
             BackButton(credits.transform);
 
             GameObject result = Panel(Page.DiveResult, "THE CLIFF DIVER'S TRAIL", "Three stages. One hard-earned badge.");
