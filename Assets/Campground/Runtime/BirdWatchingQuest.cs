@@ -7,6 +7,8 @@ public class BirdWatchingQuest : MonoBehaviour
     private int birdsSeen = 0;
     private bool questVisible = false;
     private bool completed = false;
+    public bool Completed => completed;
+    public int BirdsSeen => birdsSeen;
 
     private float notificationTimer = 0f;
     private const float NotificationDuration = 3f;
@@ -16,7 +18,7 @@ public class BirdWatchingQuest : MonoBehaviour
 
     public void BirdClicked()
     {
-        if (completed) return;
+        if (completed || !Badgewood.CampGameFlow.CanInteract) return;
         questVisible = true;
         birdsSeen++;
 
@@ -40,6 +42,7 @@ public class BirdWatchingQuest : MonoBehaviour
     }
     private void OnGUI()
     {
+        if (Badgewood.CampGameFlow.Instance != null) return;
         if (panel == null)
         {
             panel = new GUIStyle(GUI.skin.box);

@@ -1,0 +1,110 @@
+{
+  "base": "CMPM125FinalProject-main(2).zip",
+  "preserved_original_scene_records": 4096,
+  "original_scene_records_intentionally_changed": 7,
+  "new_scene_records": 79,
+  "asset_reference_check": "passed",
+  "scene_hierarchy_check": "passed",
+  "scripts_syntax_checked": 22,
+  "unchanged_art_and_prefab_files": 452,
+  "package_versions": "unchanged",
+  "original_cliff_prototype_scene": "unchanged",
+  "dive_stages": [
+    4,
+    5,
+    6
+  ],
+  "ring_mesh_opening": "0.91 times each stage scale",
+  "aperture_geometry_boundary_tests": "passed",
+  "trajectory_simulations": [
+    {
+      "stage": "First Leap",
+      "fps": 30,
+      "rings": 4,
+      "landing_xz": [
+        0.0,
+        23.367
+      ]
+    },
+    {
+      "stage": "First Leap",
+      "fps": 60,
+      "rings": 4,
+      "landing_xz": [
+        0.0,
+        23.367
+      ]
+    },
+    {
+      "stage": "First Leap",
+      "fps": 144,
+      "rings": 4,
+      "landing_xz": [
+        0.0,
+        23.375
+      ]
+    },
+    {
+      "stage": "Woodland Weave",
+      "fps": 30,
+      "rings": 5,
+      "landing_xz": [
+        -0.7,
+        25.378
+      ]
+    },
+    {
+      "stage": "Woodland Weave",
+      "fps": 60,
+      "rings": 5,
+      "landing_xz": [
+        -0.7,
+        25.378
+      ]
+    },
+    {
+      "stage": "Woodland Weave",
+      "fps": 144,
+      "rings": 5,
+      "landing_xz": [
+        -0.7,
+        25.368
+      ]
+    },
+    {
+      "stage": "Eagle Run",
+      "fps": 30,
+      "rings": 6,
+      "landing_xz": [
+        0.0,
+        27.189
+      ]
+    },
+    {
+      "stage": "Eagle Run",
+      "fps": 60,
+      "rings": 6,
+      "landing_xz": [
+        0.0,
+        27.189
+      ]
+    },
+    {
+      "stage": "Eagle Run",
+      "fps": 144,
+      "rings": 6,
+      "landing_xz": [
+        0.0,
+        27.222
+      ]
+    }
+  ],
+  "unity_compilation_and_playmode": "not available; Unity is not installed",
+  "manual_checks_required": [
+    "UI clicks and keyboard focus",
+    "walking and jumping on imported colliders",
+    "dive camera feel, hit windows and stage transitions",
+    "bird observation and campfire interactions",
+    "standalone build quit/fullscreen/audio options"
+  ]
+}
